@@ -1,0 +1,23 @@
+#two .col-6:last-child p {
+  height: calc(242px - 2em);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 1em;
+}
+
+.main.style2 {
+  background-image: url("images/overlay5.png"), url("../../images/header.jpg");
+}
+
+.main.style2 .strength {
+  display: inline-flex;
+  width: 49%;
+}
+
+.main.style2 .icon-label {
+  display: inline-block;
+  font-size: 2em;
+  line-height: 4;
+  margin-left: 1.5em;
+}
