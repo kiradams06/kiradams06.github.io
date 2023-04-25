@@ -15,9 +15,22 @@
   width: 49%;
 }
 
+@media screen and (max-width: 1042px) {
+  .main.style2 .strength {
+    width: 100%;
+  }
+}
+
 .main.style2 .icon-label {
   display: inline-block;
   font-size: 2em;
   line-height: 4;
   margin-left: 1.5em;
+}
+
+@media screen and (max-width: 1042px) {
+  .main.style2 .icon-label {
+    font-size: 1.5em;
+    line-height: 3.1;
+  }
 }
